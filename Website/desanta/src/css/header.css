@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+
+:root {
+    --gray: #1F1F20;
+    --blue: #4087C3;
+    --white: #ffffff;
+}
+.header{
+    
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 188px;
+    width: 1920px;
+    background-color: #ffffff;
+    z-index: 1000;
+    border-bottom: 1px solid #cacaca;
+    
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 100px;
+    padding-left: 6%; 
+}
+.logo_main{
+    display: flex;
+    align-items: center;
+    
+}
+.logo_foto{
+    display: flex;
+    width: 99px;
+    height: 67px; 
+  
+}
+.logo_yazi{
+    font-size: 32px;
+    padding-left: 32px;
+    font-style: normal;
+    color: #1F1F20;
+}
+/** Menu
+ * Navigasyon
+ */
+.nav{
+    padding-right:10%;
+    font-size: 24px;
+    color: #1F1F20;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #1F1F20;
+    
+}
+.menu-logo{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #1F1F20;
+    
+    
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #1F1F20;
+    padding-left: 77px;
+    
+}
+.img_login{
+    
+    width: 50px;
+    height: 50px;
+}
+
+.lightdark_{
+    padding-right: 80%;
+}
+.nav-text{
+    padding-left: 77px;
+    display: flex;
+    align-items: center;
+    /*padding-left: 77px;*/
+    color: #1F1F20;
+    
+    
+}
+.nav-login{
+    padding-left: 77px;
+    color: #1F1F20;
+}
+.menu-items:hover{
+    opacity: 0.5;
+    
+}
+
+/* 
+   Toggle Button
+*/
+#menu-lightdark{
+    
+    padding-left: 77px;
+    color: #1F1F20;
+}
+#toggle-button{
+    
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    opacity: 0.5;
+    border: 1px solid #1F1F20;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 1));
+    border-radius: 100px;
+    padding-left: 25px;
+    padding-top: 6px;
+    color: #000000;
+}
+
+#toggle-button.active #toggle-elipse{
+    left: 190px;
+}
+#toggle-button:hover{
+    background-color: #1F1F20;
+    color: #ffffff;
+    
+    
+}
+
+

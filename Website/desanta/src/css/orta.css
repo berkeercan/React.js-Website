@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+:root {
+    --gray: #1F1F20;
+    --blue: #4087C3;
+    --white: #ffffff;
+}
+.orta{
+    padding-left: 6%; 
+    text-decoration: none;
+    padding-top: 188px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   height: 780px;
+   
+  
+}
+.eagle{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    min-width: 500px;
+    min-height: 500px;
+    align-items: center;
+    
+    
+}
+
+
+.button{
+    display: flex;
+    width: 400px;
+    height: 95px;
+    padding-left: 30px;
+    align-items: center;
+    background: #4087C3;
+    border-radius: 80px;
+    text-decoration: none;
+}
+.dc_p{
+    text-decoration: none;
+    font-size: 32px;
+    padding-left: 39px;
+    color: #ffffff;
+}
+.maskot {
+    position: absolute;
+    padding-left: -200px;
+    height:500px; 
+    width:500px;
+    
+}
+.but{
+    align-items: center;
+    text-decoration: none;
+    padding-right: 40%;
+    
+}
+.button:hover{
+    opacity: 0.5;
+}
+
